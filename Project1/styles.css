@@ -1,0 +1,47 @@
+nav{background-color:#FFB6C1;
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;	
+text-align: center;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-evenly;
+}
+
+h1{background-color:#F08080;
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;
+text-align: center;	
+}
+
+h2{
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;	
+}
+
+h3{
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;	
+}
+
+h4{
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;	
+margin: 0;
+}
+
+strong{
+color:#191970;
+font-family:Georgia, "Times New Roman", serif;	
+}
+
+footer{
+text-align: center;
+}
+
+p{
+ padding-left: 2em;
+ margin: 0;
+}
+
+
+border-bottom: 2px dashed #191970;
