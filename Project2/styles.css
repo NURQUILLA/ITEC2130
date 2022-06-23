@@ -1,0 +1,31 @@
+body {
+	background-image: url(images/primehorizontal.png);
+}
+
+main {
+	border-radius: 25px;
+	border:2px solid #ffffff;
+	width: 800px;
+	background-color: #EEE8AA;
+	padding: 30px 10px 5px 20px;
+	border-spacing: center;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+footer{
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	color: #6B8E23;
+}
+
+h2{
+	color: #000080;
+}
