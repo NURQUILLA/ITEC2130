@@ -1,0 +1,24 @@
+body{
+	background-color: pink;
+}
+
+.colorlines tr:nth-child(even){
+	background-color: #D6EEEE;
+	border-bottom: 1px solid #ddd;
+	border-spacing: 10px;
+}
+
+.styled-thead thead tr {
+	border-collapse: collapse;
+}
+
+.size{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centeredtable{
+		margin-left: auto;
+		margin-right: auto;
+}
+
