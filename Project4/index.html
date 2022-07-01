@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My First Table</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<table border="4" style= "border-color:blue; border-spacing: 5px; width:1200px; height:600px;" class="colorlines">
+
+<caption><h1><b>Itec 2130 Weekly Schedule</b></h1></caption>
+
+<thead>
+<tr>
+<th id="week">Week</th>
+<th id="chapter">Chapter</th>
+<th id="content">Content</th>
+</tr>
+</thead>
+
+<tr>
+<td style="text-align: center;"><b>1</b></td>
+<td>Chapter 1</td>
+<td>Introduction</td>
+</tr>
+
+<tr class="row2">
+<td style="text-align: center;"><b>2</b></td>
+<td>Chapter 2</td>
+<td>HTML basics</td>
+</tr>
+
+<tr>
+<td style="text-align: center;"><b>3</b></td>
+<td>Chapter 3</td>
+<td>CSS</td>
+</tr>
+
+<tr>
+<td colspan=2>2 Columns</td>
+<td>1 Column</td>
+</tr>
+
+<tr>
+<td>1 Column</td>
+<td  colspan=2>2 Columns</td>
+</tr>
+
+<tr>
+<td  colspan=3>3 Columns</td>
+</tr>
+
+<tr>
+<td rowspan=3>2 Rows</td>
+</tr>
+
+<tr class="individuals">
+<td>Cell A</td>
+<td>Cell B</td>
+</tr>
+
+<tr class="revert">
+<td>Cell A</td>
+<td>Cell B</td>
+</tr>
+
+<tr class="individuals">
+<td>Cell A</td>
+<td rowspan=3>2 Rows</td>
+<td rowspan=3>2 Rows</td>
+</tr>
+
+<tr class="revert">
+<td>Cell B</td>
+</tr>
+
+<tr>
+<td rowspan=3 colspan=2>2 Columns 2 Rows</td>
+</tr>
+
+<tr>
+<td>Cell B</td>
+</tr>
+
+<tr>
+<td>Cell C</td>
+</tr>
+
+<tfoot bgcolor="blue">
+<th>Note</th>
+<th>Note</th>
+<th>Note</th>
+</tfoot>
+
+</table>
+
+</body>
+
+</html>

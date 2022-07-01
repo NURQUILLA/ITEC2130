@@ -1,0 +1,34 @@
+.row2 td{
+	background-color: #ffff00;
+}
+
+.colorlines tr:nth-child(odd){
+	background-color: #D6EEEE;
+	border-bottom: 1px solid #ddd;
+	border-spacing: 10px;
+}
+
+th{
+	background-color: #000099;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+}
+
+tfoot{
+	background-color: #000099;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+}
+
+.individuals td{
+	background-color: #D6EEEE;
+}
+.revert td{
+	background-color: white;
+}
+
+.textstyling td{
+	text-align: center;
+}
