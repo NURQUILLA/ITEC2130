@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Forms</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<form>
+<fieldset><legend>Personal Information</legend>
+<label>
+First Name:<input type="text" name="firstname">
+</label>
+<br><br>
+<label>
+Last Name:<input type="text" name="lastname" id="lastname">
+</label>
+<br><br>
+<label>
+E-mail:<input type="text" name="email">
+</label>
+
+<br><br>
+<label for="bDay">Birthday</label>
+<input type="date" name="bDay" id="bDay">
+
+</fieldset>
+
+<br><br><br>
+
+<label class="mylabel">
+Comments:<br>
+<textarea type="text" name="comments" id="comments"></textarea>
+</label>
+
+<br><br>
+<h1>
+Choose Your Favorite Sport
+</h1>
+<label for="sport">Favorite Sport:</label>
+<input type="text" name="sport" id="sport" list="sports">
+
+<datalist id="sports">
+	<option value="Football" label="Football">
+	<option value="Basketball" label="Basketball">
+	<option value="Rugby" label="Rugby">
+	<option value="Soccer" label="Soccer">
+	<option value="Tennis" label="Tennis">
+	<option value="Track" label="Track">
+	<option value="UFC" label="UFC">
+	<option value="Boxing" label="Boxing">
+</datalist>
+
+<br><br>
+<h1>
+Choose Your Favorite Sport
+</h1>
+<label for="sport">Favorite Sport:
+<br>
+ <input type="checkbox" id="sport" name="sport" value="Football">
+  <label for="sport1">Football</label><br>
+ <input type="checkbox" id="sport" name="sport" value="Basketball">
+  <label for="sport2">Basketball</label><br>
+ <input type="checkbox" id="sport" name="sport" value="Rugby">
+  <label for="sport3">Rugby</label><br>
+  <input type="checkbox" id="sport" name="sport" value="Soccer">
+  <label for="sport4">Soccer</label><br>
+  <input type="checkbox" id="sport" name="sport" value="Tennis">
+  <label for="sport5">Tennis</label><br>
+  <input type="checkbox" id="sport" name="sport" value="Track">
+  <label for="sport6">Track</label><br>
+  <input type="checkbox" id="sport" name="sport" value="UFC">
+  <label for="sport7">UFC</label><br>
+  <input type="checkbox" id="sport" name="sport" value="Boxing">
+  <label for="sport8">Boxing</label><br>
+</label>
+
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</html>

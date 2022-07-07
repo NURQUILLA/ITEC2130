@@ -1,0 +1,6 @@
+.mylabel input, textarea{ 
+	display: block;
+	height: 70px;
+	width: 500px;
+	overflow: scroll;
+}
