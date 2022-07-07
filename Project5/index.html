@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FLight Booking Form</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<form>
+
+<fieldset><legend style="text-align: center;">Flight Scheduler</legend>
+
+<fieldset><legend>Personal Information</legend>
+<label>
+First Name:<input type="text" name="firstname">
+</label>
+<br><br>
+<label>
+Last Name:<input type="text" name="lastname" id="lastname">
+</label>
+<br><br>
+<label>
+E-mail:<input type="text" name="email">
+</label>
+<br><br>
+<label for="bDay">Birthday</label>
+<input type="date" name="bDay" id="bDay">
+</fieldset>
+
+<br><br>
+
+<fieldset><legend>Flight Departure & Return Dates</legend>
+<label for="bDay">Departing</label>
+<input type="date" name="dDay" id="dDay">
+<br><br>
+<label for="bDay">Returning</label>
+<input type="date" name="rDay" id="rDay">
+</fieldset>
+
+<br><br>
+
+<fieldset><legend>Airport Departure & Airport Destination</legend>
+<label for="from">Airport Departure:</label>
+<input type="text" name="from" id="from" list="fromAirports">
+
+<datalist id="fromAirports">
+	<option value="ATL" label="Atlanta Airport">
+	<option value="BOS" label="Boston Logan Internaional Airport">
+	<option value="CLT" label="Charlotte Douglas International Airport">
+	<option value="DTW" label="Detroit Metro Airport">
+	<option value="EWR" label="Newark Liberty International Airport">
+	<option value="HOU" label="Houston Airport">
+	<option value="IAD" label="Dulles International Airport">
+	<option value="JFK" label="John F. Kennedy International Airport">
+	<option value="LAX" label="Los Angeles International Airport">
+	<option value="ORD" label="Chicago O'Hare International Airport">
+	<option value="SFO" label="San Francisco Internaional Airport">
+</datalist>
+
+<br><br>
+
+<label for="to">Airport Destination:</label>
+<input type="text" name="to" id="to" list="toAirports">
+
+<datalist id="toAirports">
+	<option value="ATL" label="Atlanta Airport">
+	<option value="BOS" label="Boston Logan Internaional Airport">
+	<option value="CLT" label="Charlotte Douglas International Airport">
+	<option value="DTW" label="Detroit Metro Airport">
+	<option value="EWR" label="Newark Liberty International Airport">
+	<option value="HOU" label="Houston Airport">
+	<option value="IAD" label="Dulles International Airport">
+	<option value="JFK" label="John F. Kennedy International Airport">
+	<option value="LAX" label="Los Angeles International Airport">
+	<option value="ORD" label="Chicago O'Hare International Airport">
+	<option value="SFO" label="San Francisco Internaional Airport">
+</datalist>
+
+</fieldset>
+
+<br><br>
+
+<fieldset><legend>Checked Bags</legend>
+<label for="bag">Number of Bags</label>
+<input type="number" name="bag" id="bag" min="0" max="3">
+</fieldset>
+
+<br><br>
+
+<fieldset><legend>Sex/Travel Insurance</legend>
+<label for="sexinsurance">
+ <input type="checkbox" id="sexinsurance" name="malewith" value="Malewith">
+  <label for="sport1">Male With Insurance</label><br>
+  <input type="checkbox" id="sexinsurance" name="malewithout" value="Malewithout">
+  <label for="sport1">Male Without Insurance</label><br>
+  <input type="checkbox" id="sexinsurance" name="femalewith" value="femalewith">
+  <label for="sport1">Female With Insurance</label><br>
+  <input type="checkbox" id="sexinsurance" name="femalewithout" value="femalewithout">
+  <label for="sport1">Female Without Insurance</label><br>
+</label>
+
+</fieldset>
+
+<br><br>
+
+<fieldset><legend>Special Assistance</legend>
+<label for="assistance">How much(if any) special care will be needed?</label>
+<br>
+
+Low<input type="range" name="assistance" id="assistance" min="0" max="100">High
+
+</fieldset>
+
+</fieldset>
+
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
+</form>
+
+</html>
