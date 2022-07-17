@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav{
+	color:#191970;
+	font-family:Georgia, "Times New Roman", serif;	
+	text-align: center;
+	list-style-type: none;
+	height: 300px;
+}
+
+.wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+	background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.1);
+}
+h1, h2, h3, h4, p{
+	color: #ffffff;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url(images/blackhole.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.left {
+	width: 25%;
+}
+
+.leftskills {
+	width: 25%;
+	height: 350px;
+}
+
+.leftwork {
+	width: 25%;
+	height: 350px;
+}
+
+.right {
+  width: 75%;
+}
+
+.bottom{
+	width: 100%;
+	text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-family:Georgia, "Times New Roman", serif;
+	color: #ffffff;
+}
+
+a:hover {
+	background-color: black;
+}
