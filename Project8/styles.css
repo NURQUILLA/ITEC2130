@@ -1,0 +1,57 @@
+body {
+	background-image: url(images/op.jpg);
+    background-repeat: repeat-xy;
+	height: 100%;
+}
+main {
+    margin-left: 180px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	width: device-width;
+}
+
+.centered {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-70%, -50%);
+	color: #000000;
+	text-shadow: 2px 2px #8B0000;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    line-height: 150%;
+    text-shadow: 2px 2px #CCCCCC;
+}
+
+.category {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #003366;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px #666;
+}
+
+footer {
+    font-size: .70em;
+    font-style: italic;
+}
+
+.wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 500px;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    color: #000066;
+}
